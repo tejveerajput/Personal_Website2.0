@@ -2,25 +2,177 @@
     margin: 0;
     padding: 0;
 }
+
+
+/* Navbar */
 nav{
     background-color: black;
     padding: 3rem;
 }
+nav div{
+    display: inline-block;
+}
+.logo img{
+    display: inline-block;
+    height: 7vh;
+    width: 5vw;
+    margin-right: 0.2rem;
+}
 ul{
-    display: flex;
-    flex-wrap: wrap;
+    position: absolute;
+    right: 10px;
     align-items: center;
     justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
 }
 li a{
     text-decoration: none;
-    font-size: 1.2rem;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2rem;
+    font-family: cursive;
     margin: 1rem;
     padding: 1rem;
     color: white;
 }
 li a:hover{
-    color: aquamarine;
+    color: cyan;
+}
+span{
+    color: white;
+    font-size: 3rem;
+}
+
+
+/* first Section */
+.first_sec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(img6.jpg) ;
+}
+.second-cont{
+    margin-left: 18px;
+    /* text-align: center; */
+    align-items: center;
+    justify-content: center;
+}
+.second-cont h1{
+    color: white;
+    margin-bottom: 1.5rem;
+    font-size: 4.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.get{
+    cursor: pointer;
+    font-size: 1.2rem;
+    border-radius: 28px;
+    border: 2px solid black;
+    padding: 1rem;
+    color: black;
+    background-color: white;
+}
+.get:hover{
+    font-size: 1.3rem;
+}
+
+
+/* second section */
+.second_sec{
+    text-align: center;
+}
+.head{
+    font-size: 3rem;
+}
+.head h1{
+    margin: 1.8rem;
+}
+.s2{
+    width: 24vw;
+}
+.s2 h3{
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+.s2 p{
+    font-size: 1.2rem;
+}
+.s1{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* third-section */
+.thi_sec{
+    margin-top: 0.5rem;
+    background: url(back_img.jpeg);
+    text-align: center;
+    color: white;
+}
+.thi_sec h1{
+    padding-top: 4rem;
+    font-size: 4.5rem;
+}
+.thi_sec #head1{
+    padding-top: 0;
+    padding-bottom: 3rem;
+}
+
+
+/* fifth-section */
+.fifth-section{
+    text-align: center;
+    background: url(triangles-ga21f3cf80_1280.png);
+}
+.fifth-section h1{
+    color: blanchedalmond;
+    font-size: 4.5rem;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+.fifth-section button{
+    margin-bottom: 5rem;
+}
+
+
+
+/* footer */
+footer{
+    background-color: black;
+    color: white;
     
+}
+footer .logo{
+    margin-bottom: 5rem;
+}
+.foote{
+    text-align: center;
+    display: flex;
+}
+footer h2{
+    font-size: 1rem;
+}
+.foot{
+    width: 24vw;
+}/* footer */
+footer{
+    background-color: black;
+    color: white;
+    
+}
+footer .logo{
+    margin-bottom: 5rem;
+}
+.foote{
+    text-align: center;
+    display: flex;
+}
+footer h2{
+    font-size: 1rem;
+}
+.foot{
+    width: 24vw;
+    margin-bottom: 2.5rem;
+}
+.foot img{
+    height: 3vh;
+    width: 3vw;
 }
